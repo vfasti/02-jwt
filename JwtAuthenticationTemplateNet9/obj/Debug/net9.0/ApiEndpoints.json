@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "JwtAuthenticationTemplateNet9.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.AuthController",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerData",
+        "Type": "JwtAuthenticationTemplateNet9.DTO.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.TestController",
+    "Method": "AdminRoute",
+    "RelativePath": "api/Test/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.TestController",
+    "Method": "OpenRoute",
+    "RelativePath": "api/Test/allowed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.TestController",
+    "Method": "SecuredRoute",
+    "RelativePath": "api/Test/secure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.TestController",
+    "Method": "UserRoute",
+    "RelativePath": "api/Test/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthenticationTemplateNet9.Controllers.TestController",
+    "Method": "UserAdminRoute",
+    "RelativePath": "api/Test/useradmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

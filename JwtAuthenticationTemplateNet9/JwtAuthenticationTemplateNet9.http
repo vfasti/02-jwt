@@ -1,0 +1,48 @@
+@JwtAuthenticationTemplateNet9_HostAddress = https://localhost:7199
+@BearerToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjNmMyNjgyYS1lMmZiLTRlZmMtYTZmMi01NmE1Mjg5NzBiYzIiLCJqdGkiOiI3YjUxN2Y1Ny02M2VmLTRiNWEtYjBkMC1kN2I5NzUyMTBlOTYiLCJuYW1lIjoidGVzdCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE3NTgzNTcwNDl9.ZgrXznibCAycke3RgWuxTKegTwEaxL2FOu2uJ0Hrvv4
+
+GET {{JwtAuthenticationTemplateNet9_HostAddress}}/api/test/allowed
+Accept: application/json
+###
+
+GET {{JwtAuthenticationTemplateNet9_HostAddress}}/api/test/secure
+Accept: application/json
+Authorization: Bearer {{BearerToken}}
+###
+
+GET {{JwtAuthenticationTemplateNet9_HostAddress}}/api/test/admin
+Accept: application/json
+Authorization: Bearer {{BearerToken}}
+###
+
+GET {{JwtAuthenticationTemplateNet9_HostAddress}}/api/test/user
+Accept: application/json
+Authorization: Bearer {{BearerToken}}
+###
+
+GET {{JwtAuthenticationTemplateNet9_HostAddress}}/api/test/useradmin
+Accept: application/json
+Authorization: Bearer {{BearerToken}}
+###
+
+POST {{JwtAuthenticationTemplateNet9_HostAddress}}/api/auth/register/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "test@test.at",
+  "username": "test",
+  "password": "test12"
+}
+###
+
+POST {{JwtAuthenticationTemplateNet9_HostAddress}}/api/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "test12"
+}
+
+###
