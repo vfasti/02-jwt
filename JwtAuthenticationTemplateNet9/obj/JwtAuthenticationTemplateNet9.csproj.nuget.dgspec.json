@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veren\\Desktop\\repos\\5sof\\JwtAuthentication_Template_Net9\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj": {}
+    "C:\\Users\\veren\\Desktop\\repos\\5sof\\02-jwt\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veren\\Desktop\\repos\\5sof\\JwtAuthentication_Template_Net9\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj": {
+    "C:\\Users\\veren\\Desktop\\repos\\5sof\\02-jwt\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veren\\Desktop\\repos\\5sof\\JwtAuthentication_Template_Net9\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj",
+        "projectUniqueName": "C:\\Users\\veren\\Desktop\\repos\\5sof\\02-jwt\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj",
         "projectName": "JwtAuthenticationTemplateNet9",
-        "projectPath": "C:\\Users\\veren\\Desktop\\repos\\5sof\\JwtAuthentication_Template_Net9\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj",
+        "projectPath": "C:\\Users\\veren\\Desktop\\repos\\5sof\\02-jwt\\JwtAuthenticationTemplateNet9\\JwtAuthenticationTemplateNet9.csproj",
         "packagesPath": "C:\\Users\\veren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veren\\Desktop\\repos\\5sof\\JwtAuthentication_Template_Net9\\JwtAuthenticationTemplateNet9\\obj\\",
+        "outputPath": "C:\\Users\\veren\\Desktop\\repos\\5sof\\02-jwt\\JwtAuthenticationTemplateNet9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
